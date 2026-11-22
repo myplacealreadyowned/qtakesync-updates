@@ -1,0 +1,15 @@
+{
+  "releases": [
+    {
+      "build": 2700,
+      "daemonCDHash": "df4f23e6b0b58d78a0628c23dbf4dc562c9515c0",
+      "minimumSystemVersion": "14.0",
+      "notes": "Updates now come from a public feed, so the app no longer carries an access token. Help has a Privacy Policy item, and About has a Support link. If an update is ever signed with a different key, the app now says so clearly and changes nothing.\n\n### Changed\n- Update feed moved to a public repository; builds no longer contain an update token. Stations on 0.12.3 and older still update through the previous feed.\n- The service installer refuses an update signed with a different update key.\n- Copyright and support details in About; note that QTakeSync is not affiliated with IN2CORE.\n\n### Fixed\n- System log: account names are no longer shown in clear text; service and upload agent start and stop are kept in the log.",
+      "path": "releases/QTakeSync-0.12.4-2700.zip",
+      "sha256": "3ace2ef6d7bbb7af9fb1f72994b2cac3d4ec2bf09d310de97664b5f05401a31b",
+      "signature": "/k/aGVjpk1Gv4EKr3HmhwjsQcUVust+oSBppEs5ioorc5DlI1rHx4DaPVxEiA2TUOnmWZZ/S+Y5wkt21FP20BQ==",
+      "size": 9175926,
+      "version": "0.12.4"
+    }
+  ]
+}
