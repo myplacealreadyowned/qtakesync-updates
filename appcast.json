@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "build": 2800,
+      "daemonCDHash": "c4a9d431eae0ee86bc0d4f49f6fb76c1c136daf5",
+      "minimumSystemVersion": "14.0",
+      "notes": "Google Drive uploads now pick up where they stopped after a failed attempt, instead of starting the file again. Pressing Retry Now while Yandex Disk is finishing a file no longer uploads it a second time.\n\n### Fixed\n- Google Drive: after a dropped connection or a restart, the next attempt continues the same upload; the whole file is still checked after upload.\n- Yandex Disk: Retry Now during the final answer from the server no longer restarts the file.\n- Stopping an upload also stops the file check at once.\n\n### Changed\n- Privacy manifests in the app, service and upload agent (no tracking, no data collected).\n- Station guide updated for Google Drive, the menu bar item, notifications and the public update feed.",
+      "path": "releases/QTakeSync-0.12.5-2800.zip",
+      "sha256": "93b1bc228a5c2bc5591e86f6694be2fdbf0f13fcd5eccd471bc3dcb359706294",
+      "signature": "4a1x2677VS259I/BYg+NgPPwOf1+ld4/cxvNFddbgaFw7xsx8bc5xdWRWfGxXhJ8sch7ql+pL/+t95N54VkaAg==",
+      "size": 9216993,
+      "version": "0.12.5"
+    },
+    {
       "build": 2700,
       "daemonCDHash": "df4f23e6b0b58d78a0628c23dbf4dc562c9515c0",
       "minimumSystemVersion": "14.0",
