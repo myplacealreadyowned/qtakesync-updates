@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "build": 2900,
+      "daemonCDHash": "0ae34b3a2db3ab79a302543e6da624b52c6c44fa",
+      "minimumSystemVersion": "14.0",
+      "notes": "A redesigned window. The sidebar is now Overview, Projects, Upload and Stations (\u23181\u2013\u23184). Overview shows what needs attention and a card for protection, collecting clips (or sharing on a station), upload and this Mac. Accounts and Service, with updates, moved to Settings (\u2318,). Everything can be done from the keyboard and with VoiceOver: use the Project menu or the toolbar Actions button for a selected project.\n\n### Added\n- Overview pane with attention rows, notices and status cards.\n- Project menu and toolbar Actions menu for the selected project; VoiceOver announcements for results and new problems.\n\n### Changed\n- Accounts and Service (with Check Now and Install Update) are tabs in Settings; \"Open Service Settings\u2026\" buttons lead there.\n- Full Disk Access being off now counts as a problem in the menu bar, the Dock badge and Overview. The Stations badge shows station problems only.\n- Clearer text: statuses in normal colour with a coloured symbol, larger text, consistent names (Install Update, Install Service\u2026 / Reinstall Service\u2026, Collecting, Transfer code).\n- Moved and skipped files, the two-main-stations notice and the notification prompt are notices on Overview.\n\n### Fixed\n- \"The uploader isn't responding\" under heavy load: the app keeps one connection to the uploader and the service instead of one per request.\n- Check Refusal in Service no longer reports a false \"ACCEPTED\".",
+      "path": "releases/QTakeSync-0.13.0-2900.zip",
+      "sha256": "3674a73d052cad52aa57192b1af258df15f993f423ab0470a95164eb1e559cee",
+      "signature": "T3vKU4Fjbquv0lJeik4SR6JmwJE9q8dTrtCQQeFaxgdn+UzKp0l19ZS3OLH/AOPgtZLS/kVe2HewL2+TYJpAAw==",
+      "size": 9645030,
+      "version": "0.13.0"
+    },
+    {
       "build": 2800,
       "daemonCDHash": "c4a9d431eae0ee86bc0d4f49f6fb76c1c136daf5",
       "minimumSystemVersion": "14.0",
